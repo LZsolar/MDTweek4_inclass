@@ -16,14 +16,14 @@
     public void printGrade()
     {
         changeStringToInt();
-        if (ifA(this.score)) { Console.WriteLine("A"); }
-        if (ifBp(this.score)) { Console.WriteLine("B+"); }
-        if (ifB(this.score)) { Console.WriteLine("B"); }
-        if (ifCp(this.score)) { Console.WriteLine("C+"); }
-        if (ifC(this.score)) { Console.WriteLine("C"); }
-        if (ifDp(this.score)) { Console.WriteLine("D+"); }
-        if (ifD(this.score)) { Console.WriteLine("D"); }
-        if (ifF(this.score)) { Console.WriteLine("F"); }
+        if (ifA(this.score)) { Console.WriteLine("Grade: A"); }
+        if (ifBp(this.score)) { Console.WriteLine("Grade: B+"); }
+        if (ifB(this.score)) { Console.WriteLine("Grade: B"); }
+        if (ifCp(this.score)) { Console.WriteLine("Grade: C+"); }
+        if (ifC(this.score)) { Console.WriteLine("Grade: C"); }
+        if (ifDp(this.score)) { Console.WriteLine("Grade: D+"); }
+        if (ifD(this.score)) { Console.WriteLine("Grade: D"); }
+        if (ifF(this.score)) { Console.WriteLine("Grade: F"); }
     }
 
     public bool ifA(int g)

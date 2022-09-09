@@ -1,5 +1,3 @@
-using System;
-
 public class UserInfo {
   public string Name;
   public string Surname;
@@ -7,18 +5,18 @@ public class UserInfo {
   public string Score;
  
   
-  static void PrintUserInformation(UserInfo info){
-    Console.Write("Name: {0}",info.Name);
+  public void PrintUserInformation(UserInfo info){
+    Console.WriteLine("Name: {0}",info.Name);
     
-    Console.Write("Surname: {0}",info.Surname);
+    Console.WriteLine("Surname: {0}",info.Surname);
     
-    Console.Write("ID Number: {0}",info.IdNumber);
+    Console.WriteLine("ID Number: {0}",info.IdNumber);
     
-    Console.Write("Score: {0}",info.Score);
+    Console.WriteLine("Score: {0}",info.Score);
     
    
     }
-    public static void UserInput() {
+    public void UserInput() {
        Console.Write("Input Name: ");
        this.Name = Console.ReadLine();
        Console.Write("Input Surname: ");
