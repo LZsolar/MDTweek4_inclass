@@ -25,7 +25,7 @@ public class UserInfo {
        this.Surname = Console.ReadLine();
        Console.Write("Input ID Number: ");
        this.IdNumber = Console.ReadLine();
-       Console.Write("Input Score: ");
+       Console.Write("Input Score:  ");
        this.Score = Console.ReadLine();
        
     }
